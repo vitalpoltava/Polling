@@ -28,18 +28,18 @@ with 15 polls.
 Options
 -------
 
-**pollLoops**
+##pollLoops
 haw many loops you want (not defining or -1 will initiate infinite polling)
 
-**pollDelay**
+##pollDelay
 delay between requests (in milliseconds)
 
 
-**pollDone**
+##pollDone
 callback for all 'done' promises
 
-**pollFail**
+##pollFail
 callback for all 'fail' promises
 
-**pollMaxFailedAttempts**
+##pollMaxFailedAttempts
 limits of sequent fails (default: 10 times)
