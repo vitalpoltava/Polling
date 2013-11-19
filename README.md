@@ -24,3 +24,9 @@ Polling usage:
 
 The above example will invoke polling ajax request with polling period of 5 sec.
 with 15 polls.
+
+- 'pollLoops': haw many loops you want (not defining or -1 will initiate infinite polling),
+- 'pollDelay': delay between requests (in milliseconds),
+- 'pollDone': callback for all 'done' promises,
+- 'pollFail': callback for all 'fail' promises,
+- 'pollMaxFailedAttempts': limits of sequent fails (default: 10 times)
