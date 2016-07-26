@@ -8,7 +8,7 @@
  * - 'pollFail': callback for all 'fail' promises,
  * - 'pollMaxFailedAttempts': limits of sequent fails (default: 10 times)
  *
- * @author Vitaliy Omelkin
+ * @author Vitalii Omelkin
  *
  * Polling usage:
  * --------------
